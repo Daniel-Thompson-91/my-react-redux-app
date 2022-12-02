@@ -3,11 +3,7 @@ import { createSlice } from "@reduxjs/toolkit";
 export const journalSlice = createSlice({
   name: 'journal',
   initialState: {
-    entries: [
-      { text: 'Water plants', isDone: false },
-      { text: 'Make Dinner', isDone: false },
-      { text: 'Finish final project', isDone: false },
-    ],
+    entries: [],
     doneEntries: []
   },
   reducers: {
