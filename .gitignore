@@ -1,7 +1,26 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-/node_modules
+/node_modules/*
+!/node_modules/@babel/runtime
+!/node_modules/dom-confetti/lib
+!/node_modules/hoist-non-react-statics/dist
+!/node_modules/object-assign
+!/node_modules/prop-types
+!/node_modules/react
+!/node_modules/react-dom
+!/node_modules/react-dom-confetti/lib
+!/node_modules/react-is
+!/node_modules/react-redux/es
+!/node_modules/redux/es
+!/node_modules/redux-thunk/es
+!/node_modules/regenerator-runtime
+!/node_modules/reselect/es
+!/node_modules/scheduler
+!/node_modules/symbol-observable/es
+!/node_modules/webpack/buildin
+!/node_modules/webpack/babel-plugin-transform-async-to-promises
+
 /.pnp
 .pnp.js
 
