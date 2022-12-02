@@ -10,6 +10,13 @@ const JournalEntry = ({ children, id, isDone }) => {
     <div className={'entry'}>
       <div className='entry-actions-container'>
         <button
+          aria-label='Remove'
+          className='remove'
+          onClick={() => dispatch(removeEntry(id))}
+        >
+          Remove
+        </button>
+        <button
           aria-label='Mark Done'
           className='done'
           onClick={() => {

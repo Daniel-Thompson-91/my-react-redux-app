@@ -1,5 +1,4 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
-import { act } from "react-dom/test-utils";
 import openWeatherMapApi from "../../api/openWeatherMap";
 
 export const getWeather = createAsyncThunk(
